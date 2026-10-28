@@ -1,0 +1,8 @@
+variable,n,missing,min,mean,max,out_of_range
+green_share_100m,500,0,0.0,0.078,0.67,0
+green_share_300m,500,0,0.0,0.127,0.657,0
+green_share_500m,500,0,0.006,0.153,0.636,0
+dist_green_m,500,0,0.0,86.77,348.7,0
+dist_blue_m,500,0,1.0,359.027,1208.3,0
+blue_share_300m,500,0,0.0,0.013,0.29,0
+blue_share_500m,500,0,0.0,0.02,0.338,0

@@ -1,0 +1,8 @@
+variable,buffer_m,description,method,unit,source,source_file,valid_min,valid_max
+green_share_100m,100.0,"Share of buffer area covered by green space (parks, forest, grass, meadows)",area_share,proportion (0-1),OpenStreetMap (accessed October 2026),data/raw/osm_green.gpkg,0,1
+green_share_300m,300.0,"Share of buffer area covered by green space (parks, forest, grass, meadows)",area_share,proportion (0-1),OpenStreetMap (accessed October 2026),data/raw/osm_green.gpkg,0,1
+green_share_500m,500.0,"Share of buffer area covered by green space (parks, forest, grass, meadows)",area_share,proportion (0-1),OpenStreetMap (accessed October 2026),data/raw/osm_green.gpkg,0,1
+dist_green_m,,Distance from home to the nearest green space,distance,metres,OpenStreetMap (accessed October 2026),data/raw/osm_green.gpkg,0,5000
+dist_blue_m,,Distance from home to the nearest water body or river,distance,metres,OpenStreetMap (accessed October 2026),data/raw/osm_blue.gpkg,0,5000
+blue_share_300m,300.0,Share of buffer area covered by water bodies,area_share,proportion (0-1),OpenStreetMap (accessed October 2026),data/raw/osm_blue.gpkg,0,1
+blue_share_500m,500.0,Share of buffer area covered by water bodies,area_share,proportion (0-1),OpenStreetMap (accessed October 2026),data/raw/osm_blue.gpkg,0,1

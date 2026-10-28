@@ -1,0 +1,36 @@
+crs: 25832   # ETRS89 / UTM zone 32N, metres
+
+exposures:
+  - name: green_share
+    description: Share of buffer area covered by green space (parks, forest, grass, meadows)
+    method: area_share
+    source_file: data/raw/osm_green.gpkg
+    source: OpenStreetMap (accessed October 2026)
+    buffers_m: [100, 300, 500]
+    unit: proportion (0-1)
+    valid_range: [0, 1]
+
+  - name: dist_green_m
+    description: Distance from home to the nearest green space
+    method: distance
+    source_file: data/raw/osm_green.gpkg
+    source: OpenStreetMap (accessed October 2026)
+    unit: metres
+    valid_range: [0, 5000]
+
+  - name: dist_blue_m
+    description: Distance from home to the nearest water body or river
+    method: distance
+    source_file: data/raw/osm_blue.gpkg
+    source: OpenStreetMap (accessed October 2026)
+    unit: metres
+    valid_range: [0, 5000]
+
+  - name: blue_share
+    description: Share of buffer area covered by water bodies
+    method: area_share
+    source_file: data/raw/osm_blue.gpkg
+    source: OpenStreetMap (accessed October 2026)
+    buffers_m: [300, 500]
+    unit: proportion (0-1)
+    valid_range: [0, 1]
